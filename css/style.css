@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background: url("/img/umbrella.png");
+  background-size: cover;
+}
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  border: 3px solid black;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+#playback,
+#random,
+#reset,
+#studentID {
+  background-color: #e74c3c;
+}
+
+#playback:hover,
+#random:hover,
+#reset:hover {
+  background-color: #c0392b;
+}
+
+#story {
+  font-size: 18px;
+  margin-top: 20px;
+}
